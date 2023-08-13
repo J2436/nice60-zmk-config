@@ -91,11 +91,11 @@
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
 			bindings = <
-	&trans   &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &rgb_ug RGB_EFR
-	&trans  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans   &trans   &trans   &trans  &trans          &trans 
-	&trans   &kp N1  &kp N2  &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8   &kp N9   &kp N0   &trans        &trans
-	&trans    &trans    &trans    &trans   &trans          &trans          &trans          &trans          &trans   &trans   &trans                          &trans
-	&trans  &trans   &trans                                &trans                                      &kp PSCRN      &trans      &trans               &kp DEL
+	&trans  &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &rgb_ug RGB_EFR
+	&trans  &kp LBRC  &kp LBKT    &kp LPAR  &trans  &trans &trans  &trans  &trans   &trans   &kp RPAR   &kp RBKT  &kp RBRC          &trans 
+	&trans  &kp N1    &kp N2  &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8   &kp N9   &kp N0   &trans        &trans
+	&trans  &trans    &trans    &trans   &kp MINUS       &kp UNDER          &trans          &trans          &trans   &trans   &trans                          &trans
+	&trans  &trans    &trans                                &trans                                      &kp PSCRN      &trans      &trans               &kp DEL
 			>;
 		};
 	};
